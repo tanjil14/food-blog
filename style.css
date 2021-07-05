@@ -18,6 +18,13 @@ h1 {
   font-size: 45px;
   color: #ff0000;
 }
+h2 {
+  font-size: 40px;
+  color: #575757;
+}
+h3 {
+  font-size: 30px;
+}
 p {
   font-size: 18px;
   color: #00ff00;
@@ -43,15 +50,73 @@ p {
 }
 .half-width {
   width: 40%;
+  margin: 0 2%;
+  padding: 2% 0;
 }
 .half-width img {
   width: 100%;
 }
 .half-width h1 {
-  color: gray;
+  color: #575757;
 }
 .half-width p {
-  color: dimgray;
+  color: #828282;
   font-size: 14px;
   text-align: justify;
+  line-height: 1.5em;
+}
+.about {
+  background-image: url("./images/Frame\ 57.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recipes {
+  width: 500px;
+  text-align: center;
+}
+.recipes p {
+  color: #828282;
+}
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.card-inner {
+  width: 26%;
+  margin: 0 2%;
+  padding: 2% 0;
+}
+.card-body {
+  box-shadow: -5px 5px 20px gray;
+  padding: 4%;
+  border-radius: 10px;
+  height: 450px;
+}
+.card-body img {
+  width: 100%;
+}
+.card-body p {
+  text-align: justify;
+  color: #828282;
+}
+
+footer {
+  display: flex;
+  height: 150px;
+  background: #000;
+  justify-content: center;
+  margin-top: 80px;
+}
+footer h3 {
+  color: #575757;
+  margin-bottom: 0;
+}
+.footer-info {
+  text-align: center;
 }
